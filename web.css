@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F3D9;
+}
+
+#navbar{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #EBE5C2;
+    padding: 10px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #EBE5C2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-inline: 40px;
+}
+
+#navbar a:hover{
+    background-color: #B9B28A;
+    color: #504B38;
+}
+
+ul{
+    display: flex;
+    margin-left: 800px;
+}
+
+.container{
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.mashed.com/img/gallery/the-best-bakery-in-every-state/l-intro-1601499029.jpg);
+    place-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#line{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+    color: #504B38;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #B9B28A;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: #F8F3D9;
+    text-rendering: auto;
+}
+
+#line2{
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+
+button{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #B9B28A;
+    color: #504B38;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    background-color: #504B38;
+    color: #B9B28A;
+}
+
+#gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#gallery img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#gallery img:hover{
+    transform: scale(1.1);
+}
+
+#specialities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#specialities img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#specialities img:hover{
+    transform: scale(1.1);
+}
+
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#services img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#services img:hover{
+    transform: scale(1.1);
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    background-color: #B9B28A;
+    padding: 20px;
+    border-radius: 10px;
+    place-content: center;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #EBE5C2;
+}
+
+textarea{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #EBE5C2;
+    border: olive;
+}
+
+
+
+
+
+
